@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid rgb(97, 83, 83);
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(211, 211, 211);
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+    </tr>
+    <tr>
+        <td rowspan="4">span<br>rows</td>
+        <td colspan="3">span columns</td>
+    </tr>
+    <tr>
+        <td colspan="2">span columns</td>
+        <td rowspan="2">span both</td>
+    </tr>
+    <tr>
+        <td rowspan="2">span rows</td>
+        <td colspan="1">span columns</td>
+    </tr>
+    <tr>
+        <td>span both</td>
+        <td>span both</td>
+    </tr>
+</table>
+
+</body>
+</html>
